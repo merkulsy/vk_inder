@@ -8,6 +8,7 @@ class VKGroup:
         self.params = {'access_token': self.token, 'v': self.version}
 
     def get_info(self):
+        # Проверям токен и возвращает информацию о группе
         url = 'https://api.vk.com/method/groups.getById'
         response = requests.get(url, params=self.params)
         return response.json()
