@@ -17,12 +17,12 @@ import database as db
 
 from vk_client import VKClient
 
-from secrets import group_token, access_token
-GROUP_TOKEN = group_token # Для отправки сообщений
-USER_TOKEN = access_token # Для поиска и получения данных
+# from secrets import group_token, access_token
+# GROUP_TOKEN = group_token # Для отправки сообщений
+# USER_TOKEN = access_token # Для поиска и получения данных
 
-# GROUP_TOKEN = input('Токен группы: ')
-# USER_TOKEN = input('Access token пользователя: ')
+GROUP_TOKEN = input('Токен группы: ')
+USER_TOKEN = input('Access token пользователя: ')
 
 
 
